@@ -1,13 +1,23 @@
 .nav {
     background: white;
     height: 80px;
-    align-items: center;
+    position: relative;
     padding-left: 0;
     box-shadow: 0 0 32px rgba(0,0,0,.15);
     left: 0;
     right: 0;
     top: 0;
     z-index: 10;
+}
+
+.nav-logo {
+    height: 80px;
+    width: 106px;
+    position: absolute;
+    left: 0px;
+    background: black;
+    z-index: 2;
+    display: none;
 }
 
 .main-navbar, .mini-nav-menus {
@@ -151,5 +161,23 @@
     .main-navbar-icon  .bars-icons-li {
         display: block;
     }
+
+    .nav-logo {
+        height: 48px;
+    }
     
+}
+
+@media screen and (max-width: 1023px) {
+   .mini-nav-menus {
+       margin-left: 106px;
+   }
+
+   .main-navbar {
+        margin-left: 106px;
+   }
+
+   .nav-logo {
+       display: block;
+   }
 }
