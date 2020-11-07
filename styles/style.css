@@ -3,7 +3,6 @@
     height: 80px;
     align-items: center;
     padding-left: 0;
-    position: absolute;
     box-shadow: 0 0 32px rgba(0,0,0,.15);
     left: 0;
     right: 0;
@@ -16,7 +15,7 @@
 }
 
 .mini-nav-menus {
-    background-color: black;
+    background-color: #131313;
     height: 32px;
     margin: 0px;
     padding: 0px;
@@ -70,21 +69,38 @@
 
 .main-navbar li a {
     text-decoration: none;
-    color: rgb(173, 173, 173);
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     color: #aaa;
     display: block;
-    height: 30px;
+    height: 48px;
     letter-spacing: .04em;
     line-height: 1;
     padding: 18px 10px 0;
     font-size: 14px;
 }
 
+.main-navbar-icon li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+    display: block;
+    height: 48px;
+    letter-spacing: .04em;
+    line-height: 1;
+    padding: 18px 15px 0;
+    font-size: 14px;
+}
+
 .main-navbar li:first-child a {  
     margin-left: 8px;
+}
+
+.main-navbar-icon li:first-child a {
+    margin-left: 0px;
 }
 
 .main-navbar a:hover {
@@ -93,7 +109,6 @@
 
 .main-navbar-icon {
     float: right;
-    padding-right: 20px;
 }
 
 .main-navbar-icon ul {
@@ -104,12 +119,37 @@
     border-left: 1px solid #eee;;
 }
 
+.main-navbar-icon  .bars-icons-li {
+    display: none;
+}
+
 .main-navbar-icon i:hover {
     color: black;
 }
 
-@media screen and (min-width: 767px) {
-    body {
-      display: none;
+@media screen and (max-width: 767px) {
+    .mini-nav-menus {
+        display: none;
     }
-  }
+
+    .main-navbar-menu-item {
+        display: none;
+    }
+
+    .nav {
+        background: white;
+        height: 48px;
+        align-items: center;
+        padding-left: 0;
+        box-shadow: 0 0 32px rgba(0,0,0,.15);
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 10;
+    }
+
+    .main-navbar-icon  .bars-icons-li {
+        display: block;
+    }
+    
+}
