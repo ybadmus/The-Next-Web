@@ -137,7 +137,64 @@
     color: black;
 }
 
-@media screen and (max-width: 767px) {
+.pandemic-ads {
+    height: 30px;
+    background-color: #fd3;
+    box-shadow: 0 16px 48px rgba(0,0,0,.15);
+    font-size: 16px;
+    color: #000;
+}
+
+.pandemic-ads p {
+    padding: 5px 0px;
+    margin-left: 10px;
+}
+
+.cover {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 60vh;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto;
+    padding: 4px 10px;
+}
+
+.cover-a {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/china-market-consumers-gq-796x417.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.cover-a a {
+    text-decoration: none;
+}
+
+.cover-b {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/netflix-feat-796x417.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.cover-c {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-13-796x417.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    background-position: 50%;
+    z-index: 1;
+}
+
+/*767px*/
+@media screen and (max-width: 835px) {
     .mini-nav-menus {
         display: none;
     }
@@ -166,6 +223,18 @@
         height: 48px;
     }
     
+    .pandemic-ads {
+        height: 60px;
+        background-color: #fd3;
+        box-shadow: 0 16px 48px rgba(0,0,0,.15);
+        font-size: 16px;
+        color: #000;
+    }
+
+    .pandemic-ads p {
+        padding: 10px 0px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -180,4 +249,13 @@
    .nav-logo {
        display: block;
    }
+
+   .hidden1023 {
+       display: none;
+   }
+
+   .pandemic-ads p {
+        text-align: center;
+    }
+   
 }
