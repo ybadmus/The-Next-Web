@@ -157,7 +157,7 @@
     height: 60vh;
     column-gap: 10px;
     row-gap: 10px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     padding: 4px 10px;
 }
 
@@ -215,12 +215,24 @@
     padding: 0 20px;
 }
 
+.latest-news-heading {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #f42;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .latest-news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     margin-bottom: 4em;
     padding-top: 24px;
+}
+
+.latest-news-mobile {
+    display: none;
 }
 
 .latest-news div {
@@ -304,6 +316,50 @@
         padding: 10px 0px;
         text-align: center;
     }
+
+    #latest-news {
+        display: none;
+    }
+
+    .latest-news-mobile {
+        display: block;
+        margin-bottom: 4em;
+        padding-top: 24px;
+    }
+   
+    .latest-news-mobile div {
+        display: flex;
+        margin: 5px 0px;
+    }
+
+    .latest-news-mobile .latest-news-mobile-desc {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .latest-news-background-mobile {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/danial-ricaros-FCHlYvR5gJI-unsplash-2-405x270.jpg");
+        left: 0;
+        padding-top: 75px;
+        top: 0;
+        min-width: 75px;
+        margin: 0px 15px 8px 0px;
+        background-color: #000;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .latest-news-heading {
+        margin: 0px;
+        text-decoration: none;
+        color: #f42;
+        font-size: 28px;
+        font-weight: bold;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -327,4 +383,12 @@
         text-align: center;
     }
    
+    .latest-news {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 4em;
+        padding-top: 24px;
+    }
+
 }
