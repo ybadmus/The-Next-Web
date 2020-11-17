@@ -274,6 +274,10 @@
     padding-right: 3px;
 }
 
+.latest-funding-1, .latest-funding-2, .latest-funding-3, .latest-funding-4 {
+    padding: 12px;
+}
+
 .latest-funding-heading {
     margin-left: 10px;
     text-decoration: none;
@@ -342,7 +346,12 @@
 }
 
 .latest-funding-description-below {
-    
+    padding: 16px;
+}
+
+.latest-funding-description-below a {
+    text-decoration: none;
+    color: #555;
 }
 
 /*767px*/
