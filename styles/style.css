@@ -289,10 +289,24 @@
 .funding-amount-features-card {
     padding: 16px;
     border-bottom: 1px solid #f42;
+    background: rgba(210, 177, 171, 0.08);
 }
 
 .latest-funding-header-card {
     text-decoration: none;
+    position: relative;
+}
+
+.funding-image {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    margin: 10.6666666667px;
+    position: absolute;
+    z-index: 10;
 }
 
 .funding-name {
@@ -347,6 +361,7 @@
 
 .latest-funding-description-below {
     padding: 16px;
+    background: rgba(210, 177, 171, 0.08);
 }
 
 .latest-funding-description-below a {
