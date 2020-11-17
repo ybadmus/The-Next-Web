@@ -209,7 +209,7 @@
     z-index: 5;
 }
 
-.latest-news-wrapper {
+.latest-news-wrapper, .latest-funding-round {
     margin: 0 auto;
     max-width: 1192px;
     padding: 0 20px;
@@ -223,7 +223,7 @@
     font-weight: bold;
 }
 
-.latest-news {
+.latest-news, .latest-fundings {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -272,6 +272,47 @@
     display: inline;
     color: #aaa;
     padding-right: 3px;
+}
+
+.latest-funding-heading {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #f42;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.funding-name {
+    background: #f42;
+    color: #fff;
+    padding: 10.6666666667px 16px 10.6666666667px 84px;
+    margin: 0!important;
+    font-size: 18px!important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.funding-amount {
+    padding: 10.6666666667px 16px 10.6666666667px 84px;
+    color: #000;
+    background: rgba(255,68,34,.08);
+    margin: 0;
+}
+
+.funding-amount h4 {
+    font-size: 18px;
+    color: #000;
+    margin: 0!important;
+}
+
+.funding-amount h4 {
+    color: #000;
+    opacity: .5;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
 }
 
 /*767px*/
