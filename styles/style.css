@@ -228,7 +228,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     margin-bottom: 4em;
-    padding-top: 24px;
+    padding-top: 10px;
 }
 
 .latest-news-mobile {
@@ -368,6 +368,15 @@
     text-decoration: none;
     color: #555;
 }
+
+.news-section {
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr;
+    margin-bottom: 4em;
+    padding-top: 10px;
+}
+
 
 /*767px*/
 @media screen and (max-width: 835px) {
