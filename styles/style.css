@@ -232,10 +232,10 @@ body {
 .latest-news-wrapper,
 .latest-funding-round,
 .news-feature-container,
-.latest-deals {
+.latest-deals, .social-wrapper, .footer-legal {
   margin: 0 auto;
   max-width: 1192px;
-  padding: 0 20px;
+  padding: 20px 20px;
 }
 
 .latest-funding-heading,
@@ -261,7 +261,6 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  /* margin-bottom: 4em; */
   padding-top: 10px;
 }
 
@@ -386,6 +385,7 @@ body {
 .funding-amount-featured i {
   width: 16px;
   height: 16px;
+  margin-right: 5px;
 }
 
 .latest-funding-description-below {
@@ -443,7 +443,6 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  line-height: 1.5;
 }
 
 .news-items-list .news-items-list-header2 a {
@@ -516,6 +515,49 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: black;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer .social-media-links {
+  padding: 3em 0 2em;
+  background: #555;
+}
+
+.footer .social-links {
+  margin-bottom: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+
+.footer .footer-menus {
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer .social-links li, .footer .footer-menus li {
+  margin: 0 8px;
+  display: inline-block;
+}
+
+.footer .social-links li a {
+  color: floralwhite;
+  text-decoration: none
+}
+
+.footer .footer-menus li a {
+  color: #aaa;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.footer-legal-information {
+  padding: 3em 0 2em;
+  background: #131313;
 }
 
 /* 767px */
