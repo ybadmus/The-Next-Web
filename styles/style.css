@@ -555,9 +555,21 @@ body {
   font-size: 13px;
 }
 
+.footer-legal-desc {
+  color: #aaa;
+  text-align: center;
+}
+
 .footer-legal-information {
   padding: 3em 0 2em;
   background: #131313;
+}
+
+.footer .footer-image {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
 }
 
 /* 767px */
