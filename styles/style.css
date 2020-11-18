@@ -1,3 +1,7 @@
+body {
+  font-family: "ARS Maquette Web One";
+}
+
 .nav {
   background: white;
   height: 80px;
@@ -257,7 +261,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
   padding-top: 10px;
 }
 
@@ -398,7 +402,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   padding-top: 10px;
 }
 
