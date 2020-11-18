@@ -248,6 +248,7 @@
   color: #f42;
   font-size: 28px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .latest-news,
@@ -255,7 +256,7 @@
 .latest-deals-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   margin-bottom: 4em;
   padding-top: 10px;
 }
