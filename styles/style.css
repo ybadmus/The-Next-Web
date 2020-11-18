@@ -255,7 +255,7 @@
 .latest-deals-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
   margin-bottom: 4em;
   padding-top: 10px;
 }
@@ -498,8 +498,19 @@
   color: black;
 }
 
-.latest-deals-list {
+.deal-card a {
+  height: 200px;
+}
 
+.latest-new-author-time li:first-child  {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.latest-new-author-time li:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
 }
 
 /* 767px */
