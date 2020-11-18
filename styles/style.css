@@ -291,14 +291,14 @@
   font-weight: 700;
 }
 
-.latest-new-author-time {
+.latest-new-author-time, .latest-new-author-time-deals {
   list-style: none;
   margin: 0;
   padding-top: 4px;
   overflow: hidden;
 }
 
-.latest-new-author-time li {
+.latest-new-author-time li, .latest-new-author-time-deals li {
   display: inline;
   color: #aaa;
   padding-right: 3px;
@@ -503,12 +503,12 @@
   height: 200px;
 }
 
-.latest-new-author-time li:first-child  {
+.latest-new-author-time-deals li:first-child  {
   font-size: 14px;
   text-decoration: line-through;
 }
 
-.latest-new-author-time li:nth-child(2) {
+.latest-new-author-time-deals li:nth-child(2) {
   font-size: 18px;
   font-weight: 600;
   color: black;
