@@ -4,13 +4,13 @@
 
 > On this project we made a heatmap of Smashing Magazine homepage.
 
-![screenshot](https://raw.githubusercontent.com/leolpaz/Smashing-Magazine-Heatmap/features/app_screenshot.png)
+![screenshot](https://raw.githubusercontent.com/ybadmus/The-Next-Web/features/app_screenshot.png)
 
 We made a heatmap of Smashing Magazine, showing by scales of gray which part of the site the user is more likely to look at.
 
 ## Live Demo
 
-- [Visit Page](https://raw.githack.com/leolpaz/Smashing-Magazine-Heatmap/features/index.html)
+- [Visit Page](https://raw.githack.com/ybadmus/The-Next-Web/features/index.html)
 
 ## Built With
 
