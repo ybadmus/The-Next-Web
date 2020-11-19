@@ -1,5 +1,5 @@
 body {
-  font-family: "ARS Maquette Web One";
+  font-family: "ARS Maquette Web One", Arial, Helvetica, sans-serif;
 }
 
 .nav {
@@ -22,6 +22,10 @@ body {
   background: black;
   z-index: 2;
   display: none;
+}
+
+.nav-logo img {
+    margin: 25px 3px;
 }
 
 .main-navbar,
@@ -83,23 +87,8 @@ body {
   padding: 0;
 }
 
-.main-navbar li a {
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #aaa;
-  display: block;
-  height: 48px;
-  letter-spacing: 0.04em;
-  line-height: 1;
-  padding: 18px 10px 0;
-  font-size: 14px;
-}
-
 .main-navbar-icon li a {
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   color: #aaa;
@@ -117,7 +106,6 @@ body {
 
 .main-navbar li a {
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   color: #aaa;
@@ -572,8 +560,7 @@ body {
   vertical-align: baseline;
 }
 
-/* 767px */
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 768px) {
   .mini-nav-menus {
     display: none;
   }
@@ -600,6 +587,10 @@ body {
 
   .nav-logo {
     height: 48px;
+  }
+
+  .nav-logo img {
+    margin: 10px 3px;
   }
 
   .pandemic-ads {
