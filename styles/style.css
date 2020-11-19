@@ -751,14 +751,6 @@ body {
     padding-top: 10px;
   }
 
-  
-  /* .latest-fundings {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    padding-top: 10px;
-  } */
-
   .news-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -767,10 +759,4 @@ body {
     padding-top: 10px;
   }
 
-  /* .latest-news, .latest-deals-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    padding-top: 10px;
-  } */
 }
