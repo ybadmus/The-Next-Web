@@ -258,7 +258,7 @@ body {
   padding-top: 10px;
 }
 
-.latest-news-mobile {
+.latest-news-mobile, .latest-deals-list-mobile {
   display: none;
 }
 
@@ -326,9 +326,10 @@ body {
   height: 60px;
   min-height: 60px;
   max-height: 60px;
-  margin: 10.6666666667px;
   position: absolute;
   z-index: 10;
+  top: 25px;
+  left: 10px;
 }
 
 .funding-name {
@@ -613,22 +614,22 @@ body {
     text-align: center;
   }
 
-  #latest-news {
+  #latest-news, #latest-deals-list {
     display: none;
   }
 
-  .latest-news-mobile {
+  .latest-news-mobile, .latest-deals-list-mobile {
     display: block;
     margin-bottom: 4em;
     padding-top: 24px;
   }
 
-  .latest-news-mobile div {
+  .latest-news-mobile div, .latest-deals-list-mobile div {
     display: flex;
     margin: 5px 0;
   }
 
-  .latest-news-mobile .latest-news-mobile-desc {
+  .latest-news-mobile .latest-news-mobile-desc, .latest-deals-list-mobile .latest-news-mobile-desc {
     flex-direction: column;
     max-width: 90%;
   }
@@ -656,6 +657,22 @@ body {
     font-size: 28px;
     font-weight: bold;
   }
+
+  .news-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    margin-bottom: 1em;
+    padding-top: 10px;
+  }
+
+  .latest-fundings {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    padding-top: 10px;
+  }
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -690,18 +707,33 @@ body {
     padding-top: 10px;
   }
 
-  .latest-fundings {
+  /* .latest-fundings {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    padding-top: 10px;
+  } */
+
+  
+  /* .latest-fundings {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     padding-top: 10px;
-  }
+  } */
 
-  .news-section {
+  /* .news-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: 1em;
     padding-top: 10px;
-  }
+  } */
+
+  /* .latest-news, .latest-deals-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 10px;
+  } */
 }
