@@ -707,9 +707,12 @@ body {
     padding-top: 10px;
   }
   
+  .nav-logo {
+    display: block;
+  }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   .mini-nav-menus {
     margin-left: 106px;
   }
@@ -741,12 +744,12 @@ body {
     padding-top: 10px;
   }
 
-  /* .latest-fundings {
+  .latest-fundings {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
     padding-top: 10px;
-  } */
+  }
 
   
   /* .latest-fundings {
@@ -756,13 +759,13 @@ body {
     padding-top: 10px;
   } */
 
-  /* .news-section {
+  .news-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: 1em;
     padding-top: 10px;
-  } */
+  }
 
   /* .latest-news, .latest-deals-list {
     display: grid;
