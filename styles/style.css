@@ -710,12 +710,42 @@ body {
   .nav-logo {
     display: block;
   }
+
+  .story-title {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .latest-new-author-time li {
+      font-size: 14px;
+  }
+
+  .latest-new-author-time-deals li:first-child {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+  .latest-new-author-time-deals li:nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .mini-nav-menus {
     margin-left: 106px;
   }
+
+  .upper-text img {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 100px;
+    z-index: 5;
+}
 
   .main-navbar {
     margin-left: 106px;
@@ -757,6 +787,28 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: 1em;
     padding-top: 10px;
+  }
+
+  .story-title {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  
+  .latest-new-author-time li {
+    font-size: 14px;
+   }
+
+  .latest-new-author-time-deals li:first-child {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+  .latest-new-author-time-deals li:nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
   }
 
 }
