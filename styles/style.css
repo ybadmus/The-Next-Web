@@ -154,9 +154,9 @@ body {
 }
 
 .mini-nav-menus-right {
-  float: right!important;
+  float: right !important;
   padding-right: 20px;
-  margin: 0px!important;
+  margin: 0px !important;
 }
 
 .mini-nav-menus-right ul {
@@ -195,7 +195,7 @@ body {
 }
 
 .main-navbar-icon {
-  float: right;
+  float: right !important;
 }
 
 .main-navbar-icon ul {
@@ -274,6 +274,10 @@ body {
   left: 24px;
   width: 300px;
   z-index: 5;
+}
+
+.hiddenHeader {
+    display: none;
 }
 
 .upper-text span {
