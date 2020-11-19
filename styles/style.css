@@ -25,7 +25,7 @@ body {
 }
 
 .nav-logo img {
-    margin: 25px 3px;
+  margin: 25px 3px;
 }
 
 .main-navbar,
@@ -220,7 +220,9 @@ body {
 .latest-news-wrapper,
 .latest-funding-round,
 .news-feature-container,
-.latest-deals, .social-wrapper, .footer-legal {
+.latest-deals,
+.social-wrapper,
+.footer-legal {
   margin: 0 auto;
   max-width: 1192px;
   padding: 20px 20px;
@@ -258,7 +260,8 @@ body {
   padding-top: 10px;
 }
 
-.latest-news-mobile, .latest-deals-list-mobile {
+.latest-news-mobile,
+.latest-deals-list-mobile {
   display: none;
 }
 
@@ -288,14 +291,16 @@ body {
   font-weight: 700;
 }
 
-.latest-new-author-time, .latest-new-author-time-deals {
+.latest-new-author-time,
+.latest-new-author-time-deals {
   list-style: none;
   margin: 0;
   padding-top: 4px;
   overflow: hidden;
 }
 
-.latest-new-author-time li, .latest-new-author-time-deals li {
+.latest-new-author-time li,
+.latest-new-author-time-deals li {
   display: inline;
   color: #aaa;
   padding-right: 3px;
@@ -502,7 +507,7 @@ body {
   height: 200px;
 }
 
-.latest-new-author-time-deals li:first-child  {
+.latest-new-author-time-deals li:first-child {
   font-size: 14px;
   text-decoration: line-through;
 }
@@ -534,14 +539,15 @@ body {
   font-size: 14px;
 }
 
-.footer .social-links li, .footer .footer-menus li {
+.footer .social-links li,
+.footer .footer-menus li {
   margin: 0 8px;
   display: inline-block;
 }
 
 .footer .social-links li a {
   color: floralwhite;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .footer .footer-menus li a {
@@ -601,7 +607,7 @@ body {
     margin: 10px 3px;
   }
 
-.cover {
+  .cover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -611,18 +617,18 @@ body {
     margin: 0 auto 20px auto;
     padding: 4px 10px;
   }
-  
+
   .cover-a {
     position: relative;
     grid-column: 1;
     grid-row: 1;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/china-market-consumers-gq-796x417.png");
   }
-  
+
   .cover-b {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/netflix-feat-796x417.png");
   }
-  
+
   .cover-c {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-13-796x417.jpg");
   }
@@ -648,22 +654,26 @@ body {
     text-align: center;
   }
 
-  #latest-news, #latest-deals-list {
+  #latest-news,
+  #latest-deals-list {
     display: none;
   }
 
-  .latest-news-mobile, .latest-deals-list-mobile {
+  .latest-news-mobile,
+  .latest-deals-list-mobile {
     display: block;
     margin-bottom: 4em;
     padding-top: 24px;
   }
 
-  .latest-news-mobile div, .latest-deals-list-mobile div {
+  .latest-news-mobile div,
+  .latest-deals-list-mobile div {
     display: flex;
     margin: 5px 0;
   }
 
-  .latest-news-mobile .latest-news-mobile-desc, .latest-deals-list-mobile .latest-news-mobile-desc {
+  .latest-news-mobile .latest-news-mobile-desc,
+  .latest-deals-list-mobile .latest-news-mobile-desc {
     flex-direction: column;
     max-width: 90%;
   }
@@ -706,8 +716,9 @@ body {
     grid-template-rows: 3fr;
     padding-top: 10px;
   }
-  
+
   .nav-logo {
+    height: 48px;
     display: block;
   }
 
@@ -719,13 +730,13 @@ body {
   }
 
   .latest-new-author-time li {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .latest-new-author-time-deals li:first-child {
     font-size: 12px;
     text-decoration: line-through;
-}
+  }
 
   .latest-new-author-time-deals li:nth-child(2) {
     font-size: 14px;
@@ -745,7 +756,7 @@ body {
     left: 24px;
     width: 100px;
     z-index: 5;
-}
+  }
 
   .main-navbar {
     margin-left: 106px;
@@ -764,10 +775,11 @@ body {
   }
 
   .latest-funding-4 {
-      display: none;
+    display: none;
   }
 
-  .latest-news, .latest-deals-list {
+  .latest-news,
+  .latest-deals-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
@@ -795,20 +807,19 @@ body {
     margin-bottom: 0;
     font-weight: 600;
   }
-  
+
   .latest-new-author-time li {
     font-size: 14px;
-   }
+  }
 
   .latest-new-author-time-deals li:first-child {
     font-size: 12px;
     text-decoration: line-through;
-}
+  }
 
   .latest-new-author-time-deals li:nth-child(2) {
     font-size: 14px;
     font-weight: 600;
     color: black;
   }
-
 }
