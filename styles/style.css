@@ -83,6 +83,7 @@ body {
 
 .cover-a a {
   text-decoration: none;
+  position: relative;
 }
 
 .latest-funding-description-below a {
@@ -248,10 +249,12 @@ body {
 }
 
 .cover-b {
+  position: relative;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/netflix-feat-796x417.png");
 }
 
 .cover-c {
+  position: relative;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-13-796x417.jpg");
 }
 
@@ -276,10 +279,33 @@ body {
   z-index: 5;
 }
 
-.hiddenHeader {
-  display: none;
+.article-text {
+  color: floralwhite;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
 }
 
+.article-text h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.article-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.article-text-side h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+  
+.article-text-side h2 {
+   font-size: 28px;
+   font-weight: 700;
+}
+  
 .upper-text span {
   position: absolute;
   right: 24px;
@@ -541,7 +567,7 @@ body {
 
 .footer .social-media-links {
   padding: 3em 0 2em;
-  background: #555;
+  background: #1e1a1a;
 }
 
 .footer .social-links {
@@ -575,6 +601,10 @@ body {
 
 @media screen and (max-width: 768px) {
   .mini-nav-menus {
+    display: none;
+  }
+
+  .upper-text img {
     display: none;
   }
 
@@ -618,6 +648,17 @@ body {
     padding: 4px 10px;
   }
 
+  
+  .article-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .article-text-side h2 {
+     font-size: 20px;
+     font-weight: 700;
+  }
+
   .cover-a {
     position: relative;
     grid-column: 1;
@@ -626,10 +667,12 @@ body {
   }
 
   .cover-b {
+    position: relative;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/netflix-feat-796x417.png");
   }
 
   .cover-c {
+    position: relative;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-13-796x417.jpg");
   }
 
@@ -746,11 +789,7 @@ body {
   }
 
   .upper-text img {
-    position: absolute;
-    top: 24px;
-    left: 24px;
-    width: 100px;
-    z-index: 5;
+    display: none;
   }
 
   .main-navbar {
