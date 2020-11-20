@@ -300,12 +300,12 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
-  
+
 .article-text-side h2 {
-   font-size: 28px;
-   font-weight: 700;
+  font-size: 28px;
+  font-weight: 700;
 }
-  
+
 .upper-text span {
   position: absolute;
   right: 24px;
@@ -648,15 +648,15 @@ body {
     padding: 4px 10px;
   }
 
-  
+
   .article-text h2 {
     font-size: 20px;
     font-weight: 700;
   }
-  
+
   .article-text-side h2 {
-     font-size: 20px;
-     font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .cover-a {
