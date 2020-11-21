@@ -1,0 +1,858 @@
+body {
+  font-family: "ARS Maquette Web One", Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background: white;
+  height: 80px;
+  position: relative;
+  padding-left: 0;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-logo {
+  height: 80px;
+  width: 106px;
+  position: absolute;
+  left: 0;
+  background: black;
+  z-index: 2;
+  display: none;
+}
+
+.nav-logo img {
+  margin: 25px 3px;
+}
+
+.main-navbar,
+.mini-nav-menus {
+  list-style: none;
+}
+
+.mini-nav-menus {
+  background-color: #131313;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.mini-nav-menus li,
+.main-navbar li {
+  float: left;
+  position: relative;
+}
+
+.mini-nav-menus li {
+  margin: 8px 0;
+}
+
+.main-navbar-icon li {
+  border-left: 1px solid #eee;
+}
+
+.latest-new-author-time li,
+.latest-new-author-time-deals li {
+  display: inline;
+  color: #aaa;
+  padding-right: 3px;
+}
+
+.news-items-list {
+  position: relative;
+}
+
+.news-items-list li {
+  display: block;
+}
+
+.news-items-list li:first-child {
+  height: 270px;
+}
+
+.news-items-list .news-items-list-header1 {
+  color: #f42;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.cover-a a {
+  text-decoration: none;
+  position: relative;
+}
+
+.latest-funding-description-below a {
+  text-decoration: none;
+  color: #555;
+}
+
+.deal-card a {
+  height: 200px;
+}
+
+.main-navbar-icon li a {
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  display: block;
+  height: 48px;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 18px 15px 0;
+  font-size: 14px;
+}
+
+.mini-nav-menus li a {
+  text-decoration: none;
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  display: block;
+  letter-spacing: 0.04em;
+  padding: 0 6px;
+}
+
+.main-navbar li a {
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  display: block;
+  height: 48px;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 18px 10px 0;
+  font-size: 14px;
+}
+
+.news-items-list .news-items-list-header2 a {
+  color: #f42;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.news-items-list .news-item-article {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+}
+
+.mini-nav-menus li:first-child {
+  margin-left: 12px;
+}
+
+#active {
+  color: white !important;
+}
+
+.mini-nav-menus-right {
+  float: right !important;
+  padding-right: 20px;
+  margin: 0 !important;
+}
+
+.mini-nav-menus-right ul {
+  list-style: none;
+}
+
+.main-navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.main-navbar a:hover {
+  color: black;
+}
+
+.news-items-list .news-list-item a {
+  list-style: disc;
+  color: #aaa;
+  text-decoration: none;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
+
+.mini-nav-menus li a:hover {
+  color: white;
+}
+
+.main-navbar li:first-child a {
+  margin-left: 8px;
+}
+
+.main-navbar-icon li:first-child a {
+  float: right;
+  margin-left: 0;
+}
+
+.main-navbar-icon {
+  float: right !important;
+}
+
+.main-navbar-icon ul {
+  list-style: none;
+}
+
+.main-navbar-icon .bars-icons-li {
+  display: none;
+}
+
+.funding-amount-featured i {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.main-navbar-icon i:hover {
+  color: black;
+}
+
+.pandemic-ads {
+  height: 30px;
+  background-color: #fd3;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  color: #000;
+}
+
+.pandemic-ads p {
+  padding: 5px 0;
+  margin-left: 10px;
+}
+
+.cover {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 60vh;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 0 auto 20px auto;
+  padding: 4px 10px;
+}
+
+.cover-a {
+  position: relative;
+  grid-column: 1;
+  grid-row: 1 / 3;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/china-market-consumers-gq-796x417.png");
+}
+
+.cover-b {
+  position: relative;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/netflix-feat-796x417.png");
+}
+
+.cover-c {
+  position: relative;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-13-796x417.jpg");
+}
+
+.cover-background-specs {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #000;
+  background-position: 50%;
+  z-index: 1;
+}
+
+.upper-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-text img {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 300px;
+  z-index: 5;
+}
+
+.article-text {
+  color: floralwhite;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+
+.article-text h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.article-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.article-text-side h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.article-text-side h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.upper-text span {
+  position: absolute;
+  right: 24px;
+  top: 16px;
+  color: white;
+  z-index: 5;
+}
+
+.latest-news-wrapper,
+.latest-funding-round,
+.news-feature-container,
+.latest-deals,
+.social-wrapper,
+.footer-legal {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 20px 20px;
+}
+
+.latest-funding-heading,
+.latest-news-heading {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #f42;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.news-feature-heading {
+  text-decoration: none;
+  color: #f42;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.latest-news,
+.latest-deals-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  padding-top: 10px;
+}
+
+.latest-fundings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  padding-top: 10px;
+}
+
+.latest-news-mobile,
+.latest-deals-list-mobile {
+  display: none;
+}
+
+.latest-news div {
+  padding: 15px;
+}
+
+.latest-news-background {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/danial-ricaros-FCHlYvR5gJI-unsplash-2-405x270.jpg");
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 50%;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.story-title {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.latest-new-author-time,
+.latest-new-author-time-deals {
+  list-style: none;
+  margin: 0;
+  padding-top: 4px;
+  overflow: hidden;
+}
+
+.latest-funding-1,
+.latest-funding-2,
+.latest-funding-3,
+.latest-funding-4 {
+  padding: 12px;
+}
+
+.funding-amount-features-card {
+  padding: 16px;
+  border-bottom: 1px solid #f42;
+  background: rgba(210, 177, 171, 0.08);
+}
+
+.latest-funding-header-card {
+  text-decoration: none;
+  position: relative;
+}
+
+.funding-image {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  position: absolute;
+  z-index: 10;
+  top: 25px;
+  left: 10px;
+}
+
+.funding-name {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.funding-amount {
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+}
+
+.funding-amount h4 {
+  font-size: 18px;
+  color: #000;
+  margin: 0 !important;
+  opacity: 0.5;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.funding-amount-featured {
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+  position: relative;
+  font-size: 14px;
+  color: #555;
+  margin-right: 1em;
+  display: block;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.latest-funding-description-below {
+  padding: 16px;
+  background: rgba(210, 177, 171, 0.08);
+}
+
+.news-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-bottom: 1em;
+  padding-top: 10px;
+}
+
+.news-holder,
+.deal-card {
+  padding: 12px;
+}
+
+.news-holder .news-image {
+  width: 100%;
+  height: 270px;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.news-item-article .flex-item1 {
+  flex-grow: 7;
+}
+
+.news-item-article .flex-item2 {
+  flex-grow: 3;
+}
+
+.flex-item-image {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.flex-item-headers {
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+
+.news-items-list .news-list-item {
+  border-bottom: 1px solid #eee;
+}
+
+.footer .social-links li a {
+  color: floralwhite;
+  text-decoration: none;
+}
+
+.footer .footer-menus li a {
+  color: #aaa;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.footer .social-links li,
+.footer .footer-menus li {
+  margin: 0 8px;
+  display: inline-block;
+}
+
+.news-items-list .news-list-item a:hover {
+  color: black;
+}
+
+.latest-new-author-time-deals li:first-child {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.latest-new-author-time-deals li:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer .social-media-links {
+  padding: 3em 0 2em;
+  background: #1e1a1a;
+}
+
+.footer .social-links {
+  margin-bottom: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+
+.footer .footer-menus {
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-legal-desc {
+  color: #aaa;
+  text-align: center;
+}
+
+.footer-legal-information {
+  padding: 3em 0 2em;
+  background: #131313;
+}
+
+.footer .footer-image {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+@media screen and (max-width: 768px) {
+  .mini-nav-menus {
+    display: none;
+  }
+
+  .upper-text img {
+    display: none;
+  }
+
+  .main-navbar-menu-item {
+    display: none;
+  }
+
+  .nav {
+    background: white;
+    height: 48px;
+    align-items: center;
+    padding-left: 0;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  }
+
+  .main-navbar-icon .bars-icons-li {
+    display: block;
+  }
+
+  .nav-logo {
+    height: 48px;
+    display: block;
+  }
+
+  .nav-logo img {
+    margin: 10px 3px;
+  }
+
+  .cover {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 85vh;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto 20px auto;
+    padding: 4px 10px;
+  }
+
+  .article-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .article-text-side h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .cover-a {
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/china-market-consumers-gq-796x417.png");
+  }
+
+  .cover-b {
+    position: relative;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/netflix-feat-796x417.png");
+  }
+
+  .cover-c {
+    position: relative;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-13-796x417.jpg");
+  }
+
+  .cover-background-specs {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #000;
+    background-position: 50%;
+    z-index: 1;
+  }
+
+  .pandemic-ads {
+    height: 60px;
+    background-color: #fd3;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    color: #000;
+  }
+
+  .pandemic-ads p {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  #latest-news,
+  #latest-deals-list {
+    display: none;
+  }
+
+  .latest-news-mobile,
+  .latest-deals-list-mobile {
+    display: block;
+    margin-bottom: 4em;
+    padding-top: 24px;
+  }
+
+  .latest-news-mobile div,
+  .latest-deals-list-mobile div {
+    display: flex;
+    margin: 5px 0;
+  }
+
+  .latest-news-mobile .latest-news-mobile-desc,
+  .latest-deals-list-mobile .latest-news-mobile-desc {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .latest-news-background-mobile {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/danial-ricaros-FCHlYvR5gJI-unsplash-2-405x270.jpg");
+    left: 0;
+    padding-top: 75px;
+    top: 0;
+    min-width: 75px;
+    margin: 0 15px 8px 0;
+    background-color: #000;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .latest-news-heading {
+    margin: 0;
+    text-decoration: none;
+    color: #f42;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .news-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    margin-bottom: 1em;
+    padding-top: 10px;
+  }
+
+  .latest-fundings {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    padding-top: 10px;
+  }
+
+  .story-title {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .latest-new-author-time li {
+    font-size: 14px;
+  }
+
+  .latest-new-author-time-deals li:first-child {
+    font-size: 12px;
+    text-decoration: line-through;
+  }
+
+  .latest-new-author-time-deals li:nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+  .mini-nav-menus {
+    margin-left: 106px;
+  }
+
+  .upper-text img {
+    display: none;
+  }
+
+  .main-navbar {
+    margin-left: 106px;
+  }
+
+  .nav-logo {
+    display: block;
+  }
+
+  .hidden1023 {
+    display: none;
+  }
+
+  .pandemic-ads p {
+    text-align: center;
+  }
+
+  .latest-funding-4 {
+    display: none;
+  }
+
+  .latest-news,
+  .latest-deals-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 10px;
+  }
+
+  .latest-fundings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 10px;
+  }
+
+  .news-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 1em;
+    padding-top: 10px;
+  }
+
+  .story-title {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .latest-new-author-time li {
+    font-size: 14px;
+  }
+
+  .latest-new-author-time-deals li:first-child {
+    font-size: 12px;
+    text-decoration: line-through;
+  }
+
+  .latest-new-author-time-deals li:nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
+}
