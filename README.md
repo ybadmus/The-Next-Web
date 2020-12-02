@@ -40,7 +40,7 @@ Before you continue, be sure that you have installed:
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ybadmus/apple-clone/issues).
+Feel free to check the [issues page](https://github.com/ybadmus/The-Next-Web/issues).
 
 ### Steps
 
